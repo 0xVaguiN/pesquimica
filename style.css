@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    background-color: #f4f0ea;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img{
+    padding-top: 15px;  
+    height: 600px;
+    width: 525px;
+    border-radius: 999px;
+
+}
+
+
+input{
+    accent-color: rgb(166, 162, 192);
+    text-align: left;
+}
+
+h1{
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(20, 11, 6);
+    text-align: center;
+    
+}
+
+.pagina {
+    display: none;
+}
+.pagina.ativa {
+    display: block;
+}
+.menu {
+    position: fixed;      
+    top: -15px;               
+    left: -15px;              
+    padding: 15px;
+    z-index: 1000;        
+    text-align: left;
+}
+
+.separador {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    border: none;
+    border-top: 2px solid lightgray;
+    z-index: 1000;
+}
+
+.menu button {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:#f4f0ea;
+    color: rgb(20, 11, 6);
+    border: none;
+    padding: 12px 25px;
+    margin: -2px;
+    border-radius: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.4s;
+}
+
+.menu button:hover {
+    background-color: rgb(166, 162, 192);
+}
