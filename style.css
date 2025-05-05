@@ -117,14 +117,14 @@ h1{
     z-index: 1000;
 }
 
-.ripple {
+.onda {
     position: absolute;
     width: 20px;
     height: 20px;
     background: rgba(255, 255, 255, 0.7);
     border-radius: 50%;
     transform: scale(0);
-    animation: ripple 0.4s linear;
+    animation: onda 0.4s linear;
   }
   
   @keyframes ripple {
